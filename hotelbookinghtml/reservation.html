@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .logo{
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logo img{
+        width: 50%;
+     height: 50%;
+        border: solid white;
+        border-radius: 50px;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: sticky;
+        top: 0;
+        cursor: pointer;
+    }
+    .nav-list{
+        width: 200%;
+        height: 100%;
+        /* background-color: brown; */
+        display: flex;
+        align-items: center;
+        color: white;
+    }
+    
+    .nav-list li{
+    list-style-type: none;
+    padding: 26px 30px;
+    color: white;
+    }
+    
+    .nav-list li a{
+        text-decoration: none;
+        color: white;
+    
+    }
+    
+    .nav-list li a:hover{
+        color: grey;
+    
+    }
+    
+    
+    .rightNav{
+        text-align: right;
+        width: 50%;
+        
+    }
+    
+    #search{
+        padding: 5px;
+        font-size: 15px;
+        border: 2px solid gray;
+        border-radius: 100px;
+    }
+    .backgrounda{
+    background: rgba(0, 0, 0, 0.7) url('img/room_1.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 70px;
+
+}
+.backgroundb{
+    background: rgba(0, 0, 0, 0.7) url('img/reservation.jpg.png');
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 70px;
+
+}
+.paragraph{
+    font-size: 50px;
+
+}
+.firstSection{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 80%;
+    margin: auto;
+    height: 80%;
+}
+
+.firstHalf{
+    width: 50%;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    
+}
+.secondHalf{
+    width: 30%;
+   
+}
+
+.secondHalf img{
+    /* width: 500px; */
+    border: 2px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+    }
+
+.textbooking{
+    font-size: 20px;
+    color: aliceblue;
+}
+
+/* _____________________________________________________________________________________ */
+
+.roomm {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.ina{
+    background-color: saddlebrown;
+}
+.inb{
+    background-color: deeppink;
+}
+.inc{
+    background-color: darkorange;
+}
+
+
+</style>
+</head>
+<body>
+    <nav class="navbar backgrounda" >
+        <ul class="nav-list">
+            <div class="logo"> <img src="img/hotel_the_paradise.jpg" alt="Hotel Booking" width="100" height="100"></div>
+            <li> <a href="hotelbooking.html">Home</a></li>
+            <li> <a href="culture.html" target="_blank">About Us</a></li>
+            <li> <a href="reservation.html"  target="_blank">Resrervation</a></li>
+            <li> <a href="location.html" target="_blank">Location</a></li>
+            <li> <a href="#geustroom">Geust Room</a></li>
+            <li> <a href="#conference">Conference</a></li>
+            <li> <a href="#food&beverage">Food & Beverage</a></li>
+            <li> <a href="#geustbook">Geust Book</a></li>
+            <li> <a href="#otherfacilities">Other Facilities</a></li>
+        </ul>
+        <div class="rightNav"> 
+            <input type="text" name="search" id="search">
+            <button class="btn btn.sm"> Search</button>
+
+
+        </div>
+    </nav> 
+    <section class="backgroundb firstSection">
+        <div class="box-main">
+            <div class="firstHalf">
+
+
+                
+                    <div class="roomm">
+                      <div class="topnav">
+                        <a  class="ina" href="RoomBooking.html" target="_blank"> Room Booking</a>
+                        <a  class="inb" href="ConferenceBooking.html" target="_blank"> Conference Booking</a>
+                        <a  class="inc" href="Dining.html" target="_blank"> Dining</a>
+                        
+                      </div>
+                    </div>
+                  
+
+
+
+
+
+
+
+
+
+
+
+
+                <!-- <details> <summary class="paragraph">Reservation</summary>
+                    <ul>
+                        <li class="textbooking"  > <a href="reservation/RoomBooking.html" target="_blank" class="textbooking" > Room Booking</a></li>
+                        <li class="textbooking" > <a href="reservation/ConferenceBooking.html" target="_blank" class="textbooking" > Conference Booking</a></li>
+                        <li class="textbooking" > <a href="reservation/Dining.html" target="_blank" class="textbooking" > Dining</a></li>
+                
+                    </ul>
+            
+                </details> -->
+            <!-- </div>
+            <div class="secondHalf">
+            <img src="img/" alt="Hotel Image">
+    
+        </div> -->
+        </div>
+    </section>
+<!-- __________________________________________________________________________________________________________________ -->
+    
+    
+
+
+
+
+
+    
+</body>
+</html>

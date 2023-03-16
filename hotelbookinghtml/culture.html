@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us-Culture</title>
+    
+<!-- css start from here ----- -->
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 50%;
+ height: 50%;
+    border: solid white;
+    border-radius: 50px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.nav-list{
+    width: 200%;
+    /* background-color: rgb(205, 177, 83); */
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.nav-list li{
+list-style-type: none;
+padding: 26px 30px;
+color: white;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.nav-list li a:hover{
+    color: grey;
+
+}
+
+
+.rightNav{
+    text-align: right;
+    width: 50%;
+    /* background-color: lightblue; */
+}
+
+#search{
+    padding: 5px;
+    font-size: 15px;
+    border: 2px solid gray;
+    border-radius: 100px;
+}
+
+.heading{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+
+}
+
+.logo img{
+    width: 20fx;
+    border: 2px solid black;
+    border-radius: 500px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('img/room_1.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 60px;
+}
+ 
+
+.firstSection{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 80%;
+    margin: auto;
+    height: 80%;
+}
+.firstHalf{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.text-big{
+font-size: 20px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.secondHalf{
+    width: 50%;
+   
+}
+.secondHalf img{
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+.backgroundA{
+    background: rgba(0, 0, 0, 0.7) url('img/vivaana-culture-hotel.jpg');
+    background-size: auto;
+    background-blend-mode: darken;
+}
+
+    </style>
+</head>
+<!-- ________________________________________________________________________________________ -->
+
+
+<body>
+
+    <nav class="navbar background" >
+        <ul class="nav-list">
+            <div class="logo"> <img src="img/hotel_the_paradise.jpg" alt="Hotel Booking" width="100" height="100"></div>
+            <li> <a href="hotelbooking.html">Home</a></li>
+            <li> <a href="culture.html" target="_blank">About Us</a></li>
+            <li> <a href="reservation.html"  target="_blank">Resrervation</a></li>
+            <li> <a href="location.html" target="_blank">Location</a></li>
+            <li> <a href="#geustroom">Geust Room</a></li>
+            <li> <a href="#conference">Conference</a></li>
+            <li> <a href="#food&beverage">Food & Beverage</a></li>
+            <li> <a href="#geustbook">Geust Book</a></li>
+            <li> <a href="#otherfacilities">Other Facilities</a></li>
+        </ul>
+        <div class="rightNav"> 
+            <input type="text" name="search" id="search">
+            <button class="btn btn.sm"> Search</button>
+
+
+        </div>
+    </nav> 
+    <p>
+    <h1 class="heading"> Culture</h1>
+        <hr>
+
+ <div>
+                <section class="backgroundA firstSection">
+                    <div class="box-main">
+                        <div class="firstHalf">
+                            <p class="text-big"> Our Online hotel reservations are a popular method for booking hotel rooms. Travellers can book rooms on a computer by using online security to protect their privacy and financial information and by using several online travel agents to compare prices and facilities at different hotels. </p>
+                           <br>
+                            <p class="text-big">Prior to the Internet, travellers could write, telephone the hotel directly, or use a travel agent to make a reservation. Nowadays, online travel agents have pictures of hotels and rooms, information on prices and deals, and even information on local resorts. Many also allow reviews of the traveler to be recorded with the online travel agent.</p>
+<br>
+                            <p class="text-big"> Online hotel reservations are also helpful for making last minute travel arrangements. Hotels may drop the price of a room if some rooms are still available. There are several websites that specialize in searches for deals on rooms.</p>
+                        </div>
+                        <div class="secondHalf">
+                        <img src="img/Namaste.jpg" alt="Hotel Image">
+                
+                    </div>
+                    </div>
+                
+                </section>
+    </section>
+</section>
+</div>
+</body>
+</html>

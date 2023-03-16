@@ -1,0 +1,216 @@
+<!DOCTYPE html>r
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> 
+
+ 
+    <title>Conference Roombooking.com</title>
+<!-- <script type="text/javascript">
+    
+    function validate()
+    {
+        var fname = document.forms.form1.fname.value;
+            var lname = document.forms.form1.lname.value;
+            var eid = document.forms.form1.eid.value;
+            var dob = document.forms.form1.dob.value;
+            var uname = document.forms.form1.uname.value;
+            var pword = document.forms.form1.pword.value;
+            var con = document.forms.form1.con.value;
+            var gen = document.forms.form1.gen.value;
+            
+
+            var a = /^[0-9]+$/;
+            var b = /^[a-zA-Z0-9]+$/;
+            var c = /^[a-zA-Z]+$/;
+
+            var atpos = eid.indexOf("@");       
+            var dotpos = eid.lastIndexOf(".");
+
+            if(fname == null || fname == "")
+            {
+                alert("First name cannot be blank");
+                document.forms.form1.fname.focus();
+                return false;
+            }
+            if(c.test(document.forms.form1.fname.value)==false)
+            {
+                alert("First name is alphabetic only....");
+                document.forms.form1.fname.focus();
+                return false;
+            }
+            if(lname == null || lname == "")
+            {
+                alert("Last name cannot be blank");
+                document.forms.form1.lname.focus();
+                return false;
+            }
+            if(c.test(document.forms.form1.lname.value)==false)
+            {
+                alert("Last name is alphabetic only....");
+                document.forms.form1.lname.focus();
+                return false;
+            }
+            if(eid == null || eid == "")
+            {
+                alert("Email ID cannot be blank");
+                document.forms.form1.eid.focus();
+                return false;
+
+            }
+            if(atpos<1||dotpos<atpos+2||dotpos+2>=eid.length)
+            {
+                alert("Not a valid email address");
+                document.forms.form1.eid.focus();
+                return false;
+            }
+            if(dob == null || dob == "")
+            {
+                alert("Date of Birth cannot be blank");
+                document.forms.form1.dob.focus();
+                return false;
+            }
+            if(a.test(document.forms.form1.dob.value)==false)
+            {
+
+            }
+
+        }
+    
+
+
+
+
+</script> -->
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+}
+.rd{
+    height: 22px;
+    color: brown;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    font-style: oblique;
+    margin: auto;
+    align-items: left;
+    justify-content: left;
+
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url(img/conferencebboking3.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.all{
+    color: white;
+}
+.btn0{
+    
+    padding:  6px 10px;
+    margin: 7px 0;
+    border: 2px solid white;
+    border-radius: 8px;
+    /* font-size: 16px; */
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+    </style>
+
+</head>
+<body>
+   <div>
+    <center>
+    <form action="#" method= "post">
+        <div class="container-fluid p-5 bg-primary text-white text-center">
+            <h1>Conference Room Booking</h1>
+            <p>Please Fill this form & then We are send a mail to you.</p> 
+          </div>
+        <div class="rd"> <b> Reservation Details</b> </div>
+        <br>
+    
+        <section class="background">
+<div>
+  <br>
+        <label for="text" class="all"> First Name*</label>
+        <input type="text" name="unname" id="nameid" placeholder="Enter First Name" maxlength="20" required><p></p>
+
+        <label for="text"class="all"> Last Name*</label>
+        <input type="text" name="unname" id="nameid" placeholder=" Enter Last Name" maxlength="20" required ><p></p>
+
+        <label for="text"class="all">Address 1*</label>
+        <input type="text" name="address" id="addressid" placeholder="Enter Your Address" maxlength="15" required ><p></p>
+
+        <label for="text"class="all">Address 2</label>
+        <input type="text" name="address" id="addressid" placeholder="Enter Your Address" maxlength="15"><p></p>
+
+        <label for="text"class="all">Zip Code*</label>
+        <input type="text" name="zipcode" id="zipcodeid" placeholder="Enter Your Pincode" maxlength="15" ><p></p>
+
+        <label for="text"class="all">Contact*</label>
+        <input type="text" name="phonenumber" id="numberid" placeholder="Enter Your Phone Number" maxlength="15" ><p></p>
+
+        <label for="text"class="all">Alternative Number</label>
+        <input type="text" name="alnum" placeholder="Enetr another Number" >
+                <p></p>
+
+        <label for="text"class="all">Email.Id*</label>
+        <input type="text" name="eid" maxlength="15" placeholder="Enter G-Mail" >
+        <p></p>
+
+        <label for="text" class="all"> Deperment*</label>
+        <input type="text" name="unname" id="nameid" placeholder="Enter Deperment" maxlength="20" required><p></p>
+<p></p>
+        <label for="text" class="all"> Position*</label>
+        <input type="text" name="unname" id="nameid" placeholder="Enter Posotion" maxlength="20" required><p></p>
+<p></p>
+        <label for="text" class="all"> Name of The Company*</label>
+        <input type="text" name="unname" id="nameid" placeholder="Enter Company's Name " maxlength="20" required><p></p>
+<p></p>
+   
+<div>
+        <label for="text"class="all"><Check-in-Date> Date*</Check-in-Date></label>
+        <input type="text"  placeholder="dd/mm/yy" name="date" id="dateinid">
+
+        
+<br>
+<br>
+
+<label for="text"class="all"><Check-in-Time>Check-in-Time*</Check-in-Time></label>
+        <input type="text"  placeholder="mm.hh.ss." name="date" id="dateinid">
+
+        <label for="text"class="all"><Check-out-Time>Check-out-Time*</Check-out-Time></label>
+        <input type="text"  placeholder="mm.hh.ss." name="date" id="dateinid">
+
+    </div>
+<p></p>
+<div class="all">
+<label for="room perference"> Room Perference*</label>
+<input type="radio" name="roomper" value="Standard" > Standard
+<input type="radio" name="roomper" value="Deluxe">Deluxe
+<input type="radio" name="roomper" value="Suite">Suite
+</div>
+<br>
+<br>
+<div class="buttons">
+    <button class="btn0" value="submit"> Login </button>
+    <button class="btn0" value="clear" id="invalid">  Cancel </button>
+</div>
+    </form>
+    </div>
+   </div>
+</section>
+</body>
+</html>
