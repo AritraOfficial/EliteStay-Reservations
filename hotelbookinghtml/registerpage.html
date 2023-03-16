@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+<style>
+    /* .background{
+        background: rgba(0, 0, 0, 0.7) url(img/louisiana-new-orleans-jackson-square-summer.jpg.ngbdfhdf);
+        background-size: cover;
+        background-blend-mode: darken;
+        
+        
+    } */
+.textab{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+    .backgroundb{
+        background: rgba(0, 0, 0, 0.7) url(img/louisiana-new-orleans-jackson-square-summer.jpg);
+        background-size: cover;
+        background-blend-mode: darken;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .color{
+        color: black;
+        font-size: 15px;
+    }
+
+    .btn{
+    padding:  6px 10px;
+    margin: 7px 0;
+    border: 2px solid white;
+    border-radius: 8px;
+    /* font-size: 16px; */
+    background: none;
+    /* color: white; */
+    cursor: pointer;
+    width: 10px;
+}
+</style>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <script type = "text/javascript">
+    
+        function validate()
+        {
+            var fname = document.forms.form1.fname.value;
+            var lname = document.forms.form1.lname.value;
+            var eid = document.forms.form1.eid.value;
+            var dob = document.forms.form1.dob.value;
+            var uname = document.forms.form1.uname.value;
+            var pword = document.forms.form1.pword.value;
+            var con = document.forms.form1.con.value;
+            var gen = document.forms.form1.gen.value;
+            
+
+            var a = /^[0-9]+$/;
+            var b = /^[a-zA-Z0-9]+$/;
+            var c = /^[a-zA-Z]+$/;
+
+            var atpos = eid.indexOf("@");       
+            var dotpos = eid.lastIndexOf(".");
+
+            if(fname == null || fname == "")
+            {
+                alert("First name cannot be blank");
+                document.forms.form1.fname.focus();
+                return false;
+            }
+            if(c.test(document.forms.form1.fname.value)==false)
+            {
+                alert("First name is alphabetic only....");
+                document.forms.form1.fname.focus();
+                return false;
+            }
+            if(lname == null || lname == "")
+            {
+                alert("Last name cannot be blank");
+                document.forms.form1.lname.focus();
+                return false;
+            }
+            if(c.test(document.forms.form1.lname.value)==false)
+            {
+                alert("Last name is alphabetic only....");
+                document.forms.form1.lname.focus();
+                return false;
+            }
+            if(eid == null || eid == "")
+            {
+                alert("Email ID cannot be blank");
+                document.forms.form1.eid.focus();
+                return false;
+
+            }
+            if(atpos<1||dotpos<atpos+2||dotpos+2>=eid.length)
+            {
+                alert("Not a valid email address");
+                document.forms.form1.eid.focus();
+                return false;
+            }
+            if(dob == null || dob == "")
+            {
+                alert("Date of Birth cannot be blank");
+                document.forms.form1.dob.focus();
+                return false;
+            }
+            if(a.test(document.forms.form1.dob.value)==false)
+            {
+
+            }
+
+        }
+    
+    
+    
+    </script>
+    </head>
+    <body>
+        
+        <form name="form1" method = "post" action="#" onsubmit="return validate()"> 
+            
+            <caption><h1 class="colora">Sign.Up</h1></caption>
+                <table border = "0" width = "50%">
+                    <hr>
+                    <br>
+      <div class="backgroundb">
+            <tr>            
+                <td  class="color">  First Name </td>
+                <td><input type="text" name = "fname"/></td>
+            </tr>
+   
+            <tr>
+                <td  class="color">  Last Name </td>
+                <td><input type="text" name = "lname"/></td>
+            </tr>
+            <tr>
+                <td  class="color">  Email ID </td>
+                <td><input type="text" name = "eid"/></td>
+            </tr>
+            <tr>
+                <td  class="color">  Date of Birth </td>
+                <td><input type="text" name = "dob"/></td>
+            </tr>
+            <tr>
+                <td  class="color">  Username </td>
+                <td><input type="text" name = "uname"/></td>
+            </tr>
+            <tr>
+                <td  class="color">  Password </td>
+                <td><input type="password" name = "pword"/></td>
+            </tr>
+            <tr>
+                <td  class="color">  Contact Number </td>
+                <td><input type="text" name = "con"/></td>
+            </tr>
+            <tr>
+                <td  class="color">  Gender </td>
+                <td class="color"><input type="radio" value = "m" name = "gen"/> Male
+            <input type="radio" value = "f" name = "gen"  /> Female 
+        </td>
+            </tr>
+            <!-- <tr>
+                <td  class="color">  Enter Your Comments </td>
+                <td><textarea rows = "5" cols="5"></textarea></td>
+            </tr> -->
+            
+            <tr class="btn">
+                <td><input type="submit" value="Sign.Up" /></td>
+                <td><input type="reset" value="Clear" /></td>
+            </tr>
+        </div>
+        
+        </form>
+
+   
+
+
+    </body>
+
+
+</html>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation - Dining </title>
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+}
+    .heading{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        font-size: 40px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: rgb(255, 183, 2);
+        
+     }
+     .logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 50%;
+ height: 50%;
+    border: solid white;
+    border-radius: 50px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.nav-list{
+    width: 200%;
+    /* background-color: rgb(205, 177, 83); */
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.nav-list li{
+list-style-type: none;
+padding: 26px 30px;
+color: white;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.nav-list li a:hover{
+    color: grey;
+
+}
+
+
+.rightNav{
+    text-align: right;
+    width: 50%;
+    /* background-color: lightblue; */
+}
+
+#search{
+    padding: 5px;
+    font-size: 15px;
+    border: 2px solid gray;
+    border-radius: 100px;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('img/room_1.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.secRight{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+
+   
+}
+.sectionTagtext-big{
+    padding: auto;
+    font-size: 25px;
+    font-family: 'Cormorant', serif;
+}
+.sectionsubtagtag-small{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.secLeft{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    flex-direction: row-reverse;
+    
+   
+}
+.thumbnail img{
+    width: 280px;
+    border: 3px solid black;
+    border-radius: 50px;
+}
+.btn{
+    padding:  6px 10px;
+    margin: 7px 3;
+    border: 2px solid white;
+    border-radius: 8px;
+    /* font-size: 16px; */
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+.btna{
+    padding:  6px 10px;
+    margin: 7px 3;
+    border: 2px solid white;
+    border-radius: 8px;
+    /* font-size: 16px; */
+    background: rgb(220, 236, 116);
+    color: black;
+    cursor: pointer;
+}
+</style>
+</head>
+<body>
+    <nav class="navbar background" >
+        <ul class="nav-list">
+            <div class="logo"> <img src="img/roombooking3.jpg" alt="Hotel Booking" width="100" height="100"></div>
+            <li> <a href="#home">Home</a></li>
+            <li> <a href="culture.html" target="_blank">About Us</a></li>
+            <li> <a href="reservation.html"  target="_blank">Resrervation</a></li>
+            <li> <a href="location.html" target="_blank">Location</a></li>
+            <li> <a href="#geustroom">Geust Room</a></li>
+            <li> <a href="#conference">Conference</a></li>
+            <li> <a href="#food&beverage">Food & Beverage</a></li>
+            <li> <a href="#geustbook">Geust Book</a></li>
+            <li> <a href="#otherfacilities">Other Facilities</a></li>
+        </ul>
+        <div class="rightNav"> 
+            <input type="text" name="search" id="search">
+            <button class="btn btn.sm"> Search</button>
+         </div>
+        </nav> 
+
+    <p>
+        <h1 class="heading"> Dining Booking </h1>
+        
+        </nav> 
+  <hr>
+  <section class="secRight">
+    <div class="paragraph">
+    <p class="sectionTagtext-big"> <b>  Dining in Mumbai </b></p> 
+    
+    <div class="buttons">
+        <button class="btna"> <a href="diningFORM.html">Book</a> </button>
+         
+    </div>
+  
+    <p class="sectionsubtagtext-small"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores nostrum debitis repellendus voluptate? Quae corporis neque, vel dolor voluptatem consequuntur maiores ab veniam deleniti eos deserunt error vitae, rem earum, cumque recusandae eveniet aliquid ratione. Magni ipsam inventore dicta in.</p> </div>
+    <div class="thumbnail"> 
+        <img src="img/dining1.jpg" alt="Bedroom-1" class="imgFluid" width="300" height="200"></div>
+
+
+</section>
+<hr>
+<section class="secLeft">
+    <div class="paragraph">
+        <p class="sectionTagtext-big"> <b>  Dining in New Delhi</b></p>
+        <div class="buttons">
+            <button class="btna"> <a href="diningFORM.html">Book</a> </button>
+             
+        </div>
+      
+        <p class="sectionsubtagtext-small"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus repudiandae laboriosam eos temporibus optio rem suscipit numquam eum aspernatur quaerat, tempora omnis, doloribus culpa sit ex accusantium perspiciatis. Quidem, assumenda cumque dolorum aut amet cupiditate maxime molestiae qui beatae officia.</p></div>
+        <div class="thumbnail"> 
+            <img src="img/dining2.jpg" alt="hotel-bedroom-2" class="imgFluid" width="300" height="200"></div>
+    
+</section>
+<hr>
+<section class="secRight">
+    <div class="paragraph">
+    <p class="sectionTagtext-big"> <b> Dining in Kolkata</b></p> 
+    <div class="buttons">
+        <button class="btna"><a href="diningFORM.html">Book</a> </button>
+       
+    </div>
+
+    <p class="sectionsubtagtext-small"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores nostrum debitis repellendus voluptate? Quae corporis neque, vel dolor voluptatem consequuntur maiores ab veniam deleniti eos deserunt error vitae, rem earum, cumque recusandae eveniet aliquid ratione. Magni ipsam inventore dicta in.</p> </div>
+    <div class="thumbnail"> 
+        <img src="img/dining4.jpg" alt="Bedroom-1" class="imgFluid" width="300" height="200"></div>
+
+
+</section>
+<hr>
+
+    
+</section>
+<hr>
+</body>
+</html>
