@@ -2,6 +2,11 @@
 
 ## Overview
 This repository contains the source code and assets for a Hotel Booking Website project. The website aims to provide users with a convenient platform to search for and book accommodations at various hotels.
+<br> 
+## About EliteStay Reservations : 
+"EliteStay Reservations" conveys a sense of luxury and exclusivity, suggesting that the website offers premium accommodations for discerning travelers. 
+"Elite" implies top-tier quality and status, while "Stay" emphasizes the focus on lodging and accommodations.
+"Reservations" highlights the primary function of the website, which is to facilitate bookings for hotels and other accommodations. Overall, the name suggests a sophisticated and upscale experience for users seeking premium lodging options.
 
 ## Features
 - **Search Functionality**: Users can search for hotels based on location, dates, and other preferences.
