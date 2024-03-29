@@ -1,3 +1,2 @@
 # Hotel-Booking-Website
-Its a on demand Hotel Booking Website. Here Room avaliable as choice of user. Vist This Website ... if you need for booking room orany flat. 
-Thank you.. !
+"EliteStay Reservations" conveys a sense of luxury and exclusivity, suggesting that the website offers premium accommodations for discerning travelers. "Elite" implies top-tier quality and status, while "Stay" emphasizes the focus on lodging and accommodations. "Reservations" highlights the primary function of the website, which is to facilitate bookings for hotels and other accommodations. Overall, the name suggests a sophisticated and upscale experience for users seeking premium lodging options.
