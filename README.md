@@ -30,28 +30,18 @@ This repository contains the source code and assets for a Hotel Booking Website 
 2. Add hotels, manage bookings, and user accounts through the admin dashboard.
 3. Visit the website homepage to search for hotels and make bookings.
 
-## Screenshots
+<!-- ## Screenshots
 ![Homepage](screenshots/homepage.png)
 ![Search Results](screenshots/search_results.png)
 ![Booking Page](screenshots/booking_page.png)
-
-## Animations and Images
-- [Python Logo](images/python_logo.png)
-- [Other Logos](images/other_logos.png)
-- [Animation Example 1](animations/animation1.gif)
-- [Animation Example 2](animations/animation2.gif)
-
-## Credits
-- Python Logo: [Python Software Foundation](https://www.python.org/)
-- Other Logos: [Example Logo Source](https://www.example.com/)
-- Animations: Created using [Animation Software](https://www.example.com/animation_tool)
+-->
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
 
 ## Contributors
-- Aritra Mukherjee ([GitHub](https://github.com/your_username))
-- John Doe ([GitHub](https://github.com/johndoe))
+- Aritra Mukherjee ([GitHub](https://github.com/AritraOfficial))
+
 
 Feel free to contribute by submitting pull requests or reporting issues!
 
