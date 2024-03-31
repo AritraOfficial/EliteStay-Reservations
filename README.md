@@ -1,5 +1,6 @@
 # Hotel Booking Website Readme
 ### 🔸It's content only the Frontend based website. [If any contributor want to add here the back end and the server you can easily contact me on discord] 🔸
+[![](https://visitcount.itsvg.in/api?id=AritraOfficial&icon=3&color=9)](https://visitcount.itsvg.in)
 ## Overview
 This repository contains the source code and assets for a Hotel Booking Website project. The website aims to provide users with a convenient platform to search for and book accommodations at various hotels.
 <br> 
